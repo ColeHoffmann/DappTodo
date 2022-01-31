@@ -1,5 +1,5 @@
-var Todo = artifacts.require("./Todo.sol");
+var SimpleStorage = artifacts.require("./SimpleStorage.sol");
 
 module.exports = function(deployer) {
-deployer.deploy(Todo);
+  deployer.deploy(SimpleStorage);
 };
