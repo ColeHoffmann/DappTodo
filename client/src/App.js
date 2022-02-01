@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SimpleStorageContract from "./contracts/SimpleStorage.json";
 import getWeb3 from "./getWeb3";
-
+import AddTask from './components/AddTask';
 import "./App.css";
 
 class App extends Component {
@@ -56,12 +56,7 @@ class App extends Component {
       <div className="App">
         <h1> Welcome to DappTodo </h1>
         <h2>a decentralised Todo list that lives on the blockchain. To get started, add an item to the todo list below </h2>
-        <form> 
-          <label> 
-            <p> Type Task below </p>
-            <input task = "task"/>
-            </label>
-        </form>
+        <AddTask/>
       </div>
     );
   }
