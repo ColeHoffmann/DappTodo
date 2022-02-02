@@ -56,7 +56,7 @@ class App extends Component {
       <div className="App">
         <h1> Welcome to DappTodo </h1>
         <h2>a decentralised Todo list that lives on the blockchain. To get started, add an item to the todo list below </h2>
-        <AddTask/>
+        //<AddTask/>
       </div>
     );
   }
