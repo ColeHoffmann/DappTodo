@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Sans-Serif;
+  text-align: center;
 }
 
 .App-logo {
@@ -19,4 +24,11 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+input {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
