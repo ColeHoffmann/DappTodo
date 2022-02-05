@@ -54,9 +54,13 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <h1> Welcome to DappTodo </h1>
-        <h2>a decentralised Todo list that lives on the blockchain. To get started, add an item to the todo list below </h2>
-        //<AddTask/>
+        <h1> Welcome to DappTodo... </h1>
+        
+        <div>
+            <h2>A decentralised Todo list that lives on the blockchain</h2>
+             <p>To get started, add an item to the todo list below </p>
+       </div>
+        <AddTask/>
       </div>
     );
   }
