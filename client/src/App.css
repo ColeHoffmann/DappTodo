@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-color: #282c34;
-  color: white;
+  background-color: #242831;
+  color: rgb(139, 199, 255);
   padding: 40px;
   font-family: Sans-Serif;
   text-align: center;
@@ -12,7 +12,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #242831;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
