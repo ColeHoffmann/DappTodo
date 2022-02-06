@@ -4,6 +4,7 @@ contract Todo {
 
     uint public taskCount = 0;
 
+//the need to make sure I add in a string of the task as content. 
     struct Task {
         uint id;
         string content;
