@@ -3,6 +3,10 @@ import SimpleStorageContract from "./contracts/SimpleStorage.json";
 import getWeb3 from "./getWeb3";
 import AddTask from './components/AddTask';
 import "./App.css";
+//define the smart contracts below. 
+
+import ToDo from "./contracts/Todo.json";
+
 
 class App extends Component {
   state = { storageValue: 0, web3: null, accounts: null, contract: null };
