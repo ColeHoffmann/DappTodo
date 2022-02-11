@@ -21,6 +21,18 @@ class AddTask extends Component {
         this.setState({task : event.target.value});
       }
 
+      updateID = event => {
+        this.setState({task : event.target.id});
+      }
+
+      updateTask = event => {
+        this.setState({task : event.target.value});
+      }
+
+      updateTask = event => {
+        this.setState({task : event.target.value});
+      }
+
     render(){
         return(
             <div> 
