@@ -12,7 +12,7 @@ class AddTask extends Component {
           web3: null,
           task:'',
           id:'',
-          completed = null;
+          completed = false;
         }
       }
 
@@ -25,9 +25,7 @@ class AddTask extends Component {
         this.setState({task : event.target.id});
       }
 
-      updateID = event => {
-        this.setState({task : event.target.completed});
-      }
+  
 
     render(){
         return(
