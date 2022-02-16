@@ -1,25 +1,22 @@
 import React, { Component } from 'react'
-import Todo from "./contracts/Todo.json";
+
+//FIX THIS
+import TodoContract from "..\\contracts\\Todo.json";
+import Web3 from 'web3'
+
+
+
+//throwing this in here for now. Calling these smart contracts has been a huge pain in the ass ngl. 
+//need to check out this documentation and figure this out. 
+//https://web3js.readthedocs.io/en/v1.2.9/
+//const contract = web3.eth.contract(contractAbi); 
+//const contractInstacnce = contract.at(contractAddress)
 
 class AddTask extends Component { 
 
-    constructor(props) {
-        super(props)
+
     
-        this.state = {
-          TodoInstance: undefined,
-          account: null,
-          web3: null,
-          task:'',
-          id:'',
-          completed = false
-        }
-      }
 
-
-      updateTask = event => {
-        this.setState({task : event.target.value});
-      }
 
     render(){
         return(
