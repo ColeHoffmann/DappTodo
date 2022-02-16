@@ -904,10 +904,16 @@
       "links": {},
       "address": "0xd771Bd9341C76360571f7Fff8d93b59AAC489f9a",
       "transactionHash": "0xfa6f309f82fc520fbdba0e47827f9c66d0b237d85a82e7c76e7fd62fd52352c0"
+    },
+    "1644990020590": {
+      "events": {},
+      "links": {},
+      "address": "0x32Fb0E601217d0Ae6F794565D691deeB5b9282Ca",
+      "transactionHash": "0x570e34ca49030fda66946f6e7d152a40aee24a4738ae902a3c54bb0331edc333"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2022-02-15T02:16:30.479Z",
+  "updatedAt": "2022-02-16T05:41:52.920Z",
   "devdoc": {
     "methods": {}
   },
